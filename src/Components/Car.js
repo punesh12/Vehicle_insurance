@@ -14,6 +14,7 @@ function Car() {
                     <p>Car & Taxi</p>
                     </div>
                 </Link>
+                
 
                 <Link to="/bike">
                 <div className="logo2" style={{opacity:0.5}}>
