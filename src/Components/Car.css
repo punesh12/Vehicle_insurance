@@ -1,0 +1,87 @@
+.car{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.logo_arrow{
+    display: flex;
+    height: 15px;
+    width: 15px;
+    padding-left: 5px;
+
+}
+
+
+.logo_option{
+    display: flex;
+}
+
+.logo1, .logo2, .logo3{
+    padding: 20px 30px;
+}
+
+.logo1 > p, .logo2 > p, .logo3 > p{
+font-size: 12px;
+font-weight: bold;
+color: white;
+margin-bottom: 5px;
+}
+
+.car_info{
+    align-items: center;
+    height: 50px;
+    width: 37%;
+    margin: 0 30%;
+    padding: 15px 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.car_info_span{
+display: flex;
+float: left;
+margin-left: 0;
+font-size: 13px;
+font-weight: 500;
+}
+
+.car_info_details{
+    width: 100%;
+    display: flex;
+    
+}
+
+.car_info_input{
+    border-style: none;
+    border-color: transparent;
+    padding: 5px 0;
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+    color: grey;
+}
+
+.car_info_submit > span{
+    display: flex;
+    background-color: #44cb86;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    height: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+

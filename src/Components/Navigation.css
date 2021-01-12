@@ -1,0 +1,64 @@
+.header_nav{
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.header_nav_left{
+    display: inline-flex;
+    float: left;
+    padding-left: 150px;
+    
+}
+
+h6 {
+    font-size: 14px;
+    margin: 15px 20px;
+    color: white;
+}
+
+.header_link{
+    text-decoration: none;
+}
+
+.header_logo{
+    width: 100px;
+    margin-top: 10px;
+    padding: 0 20px;
+    
+}
+
+.header_nav_right{
+    display: flex;
+    float: right;
+
+}
+
+.header_nav_right > .header_link > h6{
+    margin-right: 150px;
+    padding-left: 50px;
+}
+
+.login_box{
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    /* margin-right: 100px; */
+    font-size: 12px;
+    background-color: #4a1f9e;
+}
+
+
+.btn_login{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 3px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
